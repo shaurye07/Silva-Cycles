@@ -4,16 +4,18 @@
   <title>Bronson's Bike Shop</title>
   <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="responsive.js"></script>
 </head>
 <body>
 
-  <div class="navigation">
+  <div class="navigation" id="navig">
     <ul>
       <li>Home</li>
       <li>Adult Bikes</li>
-      <li id="logo">Bronson's Bike Shop</li>
+      <li id="logo">Bronson's Bike Shop</li><a href="#">
       <li>Kid's Bikes</li>
       <li>Contact Us</li>
+      <li><a href="javascript:void(0);" onclick="collapse();" class="icon">&#9776;</a></li>
     </ul>
   </div>
 

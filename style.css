@@ -28,6 +28,15 @@ body {
   z-index: 10000;
 }
 
+.navigation li:hover {
+
+  color: #FF5733;
+}
+
+.navigation .icon{
+  display: none;
+}
+
 ul {
   padding: 0;
 }
@@ -136,4 +145,32 @@ a {
 
 .blue {
   color: #14213D !important;
+}
+
+/*Code for responsiveness*/
+
+@media screen and (max-width: 600px){
+
+  .navigation li{display: none;}
+  .navigation .icon{
+    display: block;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .navigation .responsive {position: relative;}
+  .navigation .responsive li.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+
+  .navigation .responsive li{
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
