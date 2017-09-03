@@ -174,3 +174,10 @@ a {
     text-align: left;
   }
 }
+.instaimg img {margin-bottom: 30px;}
+.instaimg img:hover
+{
+	opacity:0.8;
+	-moz-opacity: 0.8;
+	-mobkit-opacity: 0.8;
+}
